@@ -62,10 +62,19 @@ guesser_polynomial(
 
 matches = 0
 best = 0
+bestCandidate = []
 for candidate in candidateArray:
     matches = 0
     for test in data_arrays:
         res = 0
         for i in range(int(len(test[1])/2)):
-            res += test[1][i] * candidate
+            res += candidate[i] * test[1][i] ** candidate[i + 1]
+        if test[0] * Decimal("0.99") <= res <= test[0] * Decimal("1.01"):
+            matches += 1
+            print(res + " " + test[0])
+    if (matches > best):
+        best = matches
+        bestCandidate = candidate
+print(best)
+print(bestCandidate)
 
