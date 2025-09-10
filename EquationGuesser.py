@@ -48,11 +48,12 @@ def guesser_polynomial(step, minimum, maximum, inputs, desired_output):
 
         if desired_output * Decimal("0.99") <= result <= desired_output * Decimal("1.01"):
             print(f"{arr}, result = {result} coef/exp")
-            candidateArray.append([result,[arr]])
+            candidateArray.append([result,arr])
             candidates += 1
     print(candidates)
+    return candidateArray
 # Example usage
-guesser_polynomial(
+candidateArray = guesser_polynomial(
     Decimal("1.0"),
     Decimal("-1.0"),
     Decimal("3.0"),
@@ -67,12 +68,15 @@ for candidate in candidateArray:
     matches = 0
     for test in data_arrays:
         res = 0
-        for i in range(int(len(test[1])/2)):
-            res += candidate[i] * test[1][i] ** candidate[i + 1]
-        if test[0] * Decimal("0.99") <= res <= test[0] * Decimal("1.01"):
+        for i in range(int(len(candidate[1])/2)):
+            coef = Decimal(candidate[1][2 * i])  # make sure coef is Decimal
+            exp = int(candidate[1][2 * i + 1])  # exponent is safe as int
+            term = coef * (Decimal(test[1][i]) ** exp)  # cast base to Decimal too
+            res += term
+        if Decimal(str(test[0])) * Decimal("0.9") <= res <= Decimal(str(test[0])) * Decimal("1.1"):
             matches += 1
-            print(res + " " + test[0])
-    if (matches > best):
+            print(f"res: {res} + expected: {test[0]}")
+    if matches > best:
         best = matches
         bestCandidate = candidate
 print(best)
