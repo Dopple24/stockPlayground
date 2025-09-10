@@ -11,15 +11,15 @@ data_arrays = []
 for _, row in df.iterrows():
     price = row["Price"]
     metrics = [
-        row["Earnings Yield (/10)"],
+        row["Earnings Yield"],
         row["PEG"],
         row["Debt/Equity"],
         row["Revenue Growth (/10)"],
-        row["FCF Yield (/10)"]
+        row["FCF Yield"]
     ]
     data_arrays.append([price, metrics])
 
-print (data_arrays)
+#print (data_arrays)
 
 def guesser_polynomial(step, minimum, maximum, inputs, desired_output):
     # Convert inputs to Decimals
@@ -47,18 +47,17 @@ def guesser_polynomial(step, minimum, maximum, inputs, desired_output):
             result += term
 
         if desired_output * Decimal("0.99") <= result <= desired_output * Decimal("1.01"):
-            print(f"{arr}, result = {result} coef/exp")
+            #print(f"{arr}, result = {result} coef/exp")
             candidateArray.append([result,arr])
-            candidates += 1
     print(candidates)
     return candidateArray
 # Example usage
 candidateArray = guesser_polynomial(
-    Decimal("1.0"),
-    Decimal("-1.0"),
-    Decimal("3.0"),
-    [0.26952301485309643,-11.042543809909692,1.872326602282704,0.20219940775141212,0.31285728724418443],        # these will be converted to Decimal inside
-    Decimal("234.35"),
+    Decimal("2.0"),
+    Decimal("-3.0"),
+    Decimal("7.0"),
+    [2.7405650037434386,2.3481156413410527,0.17639506345366093,1.4932156232406721,1.9272389865962702],        # these will be converted to Decimal inside
+    Decimal("499.885"),
 )
 
 matches = 0
@@ -67,6 +66,8 @@ bestCandidate = []
 for candidate in candidateArray:
     matches = 0
     for test in data_arrays:
+        if test[0] == 499.885:
+            continue
         res = 0
         for i in range(int(len(candidate[1])/2)):
             coef = Decimal(candidate[1][2 * i])  # make sure coef is Decimal

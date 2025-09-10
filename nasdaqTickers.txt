@@ -1,0 +1,88 @@
+Symbol|Security Name|Market Category|Test Issue|Financial Status|Round Lot Size|ETF|NextShares
+AAPL|Apple Inc. - Common Stock|Q|N|N|100|N|N
+MSFT|Microsoft Corporation - Common Stock|Q|N|N|100|N|N
+GOOG|Alphabet Inc. - Class C Capital Stock|Q|N|N|100|N|N
+GOOGL|Alphabet Inc. - Class A Common Stock|Q|N|N|100|N|N
+AMZN|Amazon.com, Inc. - Common Stock|Q|N|N|100|N|N
+META|Meta Platforms, Inc. - Class A Common Stock|Q|N|N|100|N|N
+TSLA|Tesla, Inc. - Common Stock|Q|N|N|100|N|N
+NVDA|NVIDIA Corporation - Common Stock|Q|N|N|100|N|N
+NFLX|Netflix, Inc. - Common Stock|Q|N|N|100|N|N
+INTC|Intel Corporation - Common Stock|Q|N|N|100|N|N
+PEP|PepsiCo, Inc. - Common Stock|Q|N|N|100|N|N
+CSCO|Cisco Systems, Inc. - Common Stock|Q|N|N|100|N|N
+ADBE|Adobe Inc. - Common Stock|Q|N|N|100|N|N
+AMD|Advanced Micro Devices, Inc. - Common Stock|Q|N|N|100|N|N
+QCOM|QUALCOMM Incorporated - Common Stock|Q|N|N|100|N|N
+AVGO|Broadcom Inc. - Common Stock|Q|N|N|100|N|N
+TXN|Texas Instruments Incorporated - Common Stock|Q|N|N|100|N|N
+AMAT|Applied Materials, Inc. - Common Stock|Q|N|N|100|N|N
+SBUX|Starbucks Corporation - Common Stock|Q|N|N|100|N|N
+MDLZ|Mondelez International, Inc. - Class A Common Stock|Q|N|N|100|N|N
+INTU|Intuit Inc. - Common Stock|Q|N|N|100|N|N
+PYPL|PayPal Holdings, Inc. - Common Stock|Q|N|N|100|N|N
+CSX|CSX Corporation - Common Stock|Q|N|N|100|N|N
+CHTR|Charter Communications, Inc. - Class A Common Stock|Q|N|N|100|N|N
+REGN|Regeneron Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
+KDP|Keurig Dr Pepper Inc. - Common Stock|Q|N|N|100|N|N
+VRTX|Vertex Pharmaceuticals Incorporated - Common Stock|Q|N|N|100|N|N
+GILD|Gilead Sciences, Inc. - Common Stock|Q|N|N|100|N|N
+ADP|Automatic Data Processing, Inc. - Common Stock|Q|N|N|100|N|N
+MELI|MercadoLibre, Inc. - Common Stock|Q|N|N|100|N|N
+LRCX|Lam Research Corporation - Common Stock|Q|N|N|100|N|N
+PANW|Palo Alto Networks, Inc. - Common Stock|Q|N|N|100|N|N
+MAR|Marriott International, Inc. - Class A Common Stock|Q|N|N|100|N|N
+BKNG|Booking Holdings Inc. - Common Stock|Q|N|N|100|N|N
+FTNT|Fortinet, Inc. - Common Stock|Q|N|N|100|N|N
+ADSK|Autodesk, Inc. - Common Stock|Q|N|N|100|N|N
+MCHP|Microchip Technology Incorporated - Common Stock|Q|N|N|100|N|N
+WDAY|Workday, Inc. - Class A Common Stock|Q|N|N|100|N|N
+IDXX|IDEXX Laboratories, Inc. - Common Stock|Q|N|N|100|N|N
+MNST|Monster Beverage Corporation - Common Stock|Q|N|N|100|N|N
+ROST|Ross Stores, Inc. - Common Stock|Q|N|N|100|N|N
+ORLY|O'Reilly Automotive, Inc. - Common Stock|Q|N|N|100|N|N
+KHC|Kraft Heinz Company (The) - Common Stock|Q|N|N|100|N|N
+TEAM|Atlassian Corporation Plc - Class A Ordinary Shares|Q|N|N|100|N|N
+CRWD|CrowdStrike Holdings, Inc. - Class A Common Stock|Q|N|N|100|N|N
+CTAS|Cintas Corporation - Common Stock|Q|N|N|100|N|N
+CDNS|Cadence Design Systems, Inc. - Common Stock|Q|N|N|100|N|N
+PDD|PDD Holdings Inc. - American Depositary Shares|Q|N|N|100|N|N
+ODFL|Old Dominion Freight Line, Inc. - Common Stock|Q|N|N|100|N|N
+KLAC|KLA Corporation - Common Stock|Q|N|N|100|N|N
+MRVL|Marvell Technology, Inc. - Common Stock|Q|N|N|100|N|N
+ANSS|ANSYS, Inc. - Common Stock|Q|N|N|100|N|N
+EA|Electronic Arts Inc. - Common Stock|Q|N|N|100|N|N
+DXCM|DexCom, Inc. - Common Stock|Q|N|N|100|N|N
+ILMN|Illumina, Inc. - Common Stock|Q|N|N|100|N|N
+ALGN|Align Technology, Inc. - Common Stock|Q|N|N|100|N|N
+EXC|Exelon Corporation - Common Stock|Q|N|N|100|N|N
+EBAY|eBay Inc. - Common Stock|Q|N|N|100|N|N
+BIIB|Biogen Inc. - Common Stock|Q|N|N|100|N|N
+DLTR|Dollar Tree, Inc. - Common Stock|Q|N|N|100|N|N
+PCAR|PACCAR Inc - Common Stock|Q|N|N|100|N|N
+FAST|Fastenal Company - Common Stock|Q|N|N|100|N|N
+WDAY|Workday, Inc. - Class A Common Stock|Q|N|N|100|N|N
+CPRT|Copart, Inc. - Common Stock|Q|N|N|100|N|N
+CTSH|Cognizant Technology Solutions Corporation - Class A Common Stock|Q|N|N|100|N|N
+XEL|Xcel Energy Inc. - Common Stock|Q|N|N|100|N|N
+PAYX|Paychex, Inc. - Common Stock|Q|N|N|100|N|N
+VRSK|Verisk Analytics, Inc. - Common Stock|Q|N|N|100|N|N
+DLR|Digital Realty Trust, Inc. - Common Stock|Q|N|N|100|N|N
+MTCH|Match Group, Inc. - Common Stock|Q|N|N|100|N|N
+ZS|Zscaler, Inc. - Common Stock|Q|N|N|100|N|N
+OKTA|Okta, Inc. - Class A Common Stock|Q|N|N|100|N|N
+DOCU|DocuSign, Inc. - Common Stock|Q|N|N|100|N|N
+SPLK|Splunk Inc. - Common Stock|Q|N|N|100|N|N
+VRSN|VeriSign, Inc. - Common Stock|Q|N|N|100|N|N
+MRNA|Moderna, Inc. - Common Stock|Q|N|N|100|N|N
+NXPI|NXP Semiconductors N.V. - Common Stock|Q|N|N|100|N|N
+COST|Costco Wholesale Corporation - Common Stock|Q|N|N|100|N|N
+ISRG|Intuitive Surgical, Inc. - Common Stock|Q|N|N|100|N|N
+BIDU|Baidu, Inc. - ADS|Q|N|N|100|N|N
+JD|JD.com, Inc. - ADS|Q|N|N|100|N|N
+ZM|Zoom Video Communications, Inc. - Class A Common Stock|Q|N|N|100|N|N
+ABNB|Airbnb, Inc. - Class A Common Stock|Q|N|N|100|N|N
+LYFT|Lyft, Inc. - Class A Common Stock|Q|N|N|100|N|N
+UBER|Uber Technologies, Inc. - Common Stock|Q|N|N|100|N|N
+SNPS|Synopsys, Inc. - Common Stock|Q|N|N|100|N|N
+SIRI|Sirius XM Holdings Inc. - Common Stock|Q|N|N|100|N|N
